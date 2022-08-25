@@ -7,8 +7,7 @@ const stripeRoute = require("./routes/stripe")
 const cartRoute = require("./routes/cart");
 const orderRoute = require("./routes/order");
 const bodyParser = require("body-parser");
-const path =  require('\
-path');
+const path =  require('path');
 const cors = require('cors');
 
 const app = express();
